@@ -22,7 +22,7 @@ class Player extends SpriteAnimationGroupComponent with HasGameRef<MyFlameGame>,
 
   final double stepTime = 0.05;
   final double _gravity = 9.81;
-  final double _jumpForce = 460;
+  final double _jumpForce = 300;
   final double _terminalVelocity = 300;
   double horizontalMovement = 0;
   double moveSpeed = 100;
